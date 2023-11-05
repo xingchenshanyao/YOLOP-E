@@ -35,6 +35,15 @@ Our datasets and weights: [SDExpressway, yolop.pth, yolope.pth](https://pan.baid
 ##### Lane Detection Result:
 ![6](https://github.com/xingchenshanyao/YOLOP-E/assets/116085226/622348b1-5f9a-4eb5-8bf1-f0d3fb5f9548)
 
+### Visualization
+
+#### Traffic Object Detection Result
+![image](https://github.com/xingchenshanyao/YOLOP-E/assets/116085226/1d48739d-4c4e-40ba-9e78-9017274414df)
+#### Drivable Area Segmentation Result
+![image](https://github.com/xingchenshanyao/YOLOP-E/assets/116085226/7a987490-cb24-4e4e-9ed0-1a7a2f698c9f)
+#### Lane Detection Result
+![image](https://github.com/xingchenshanyao/YOLOP-E/assets/116085226/b15f1b6a-6dbb-48a7-9882-ae4e5a81dd86)
+
 ### Acknowledgements:
 
 [YOLOP](https://github.com/hustvl/YOLOP)
