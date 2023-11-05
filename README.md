@@ -7,6 +7,8 @@ Our datasets and weights: [SDExpressway, yolop.pth, yolope.pth](https://pan.baid
 ### The Illustration of YOLOP-E
 ![图片1](https://github.com/xingchenshanyao/YOLOP-E/assets/116085226/5588ffc2-4b3e-40e2-92a5-429ec596c03b)
 
+### The Illustration of ELAN-X
+
 ### Contributions
 * 基于YOLOP提出了一种高效的针对高速公路场景的多任务网络YOLOP-E，可联合处理(jointly handle)自动驾驶中的三项关键任务：交通目标检测、可驾驶区域分割和车道线分割，并且达到优异的检测与分割效果。
 
