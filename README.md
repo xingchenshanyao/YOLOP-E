@@ -24,8 +24,7 @@ Our datasets and weights: [SDExpressway, yolop.pth, yolope.pth](https://pan.baid
 | `YOLOP(baseline)`     | 86.8      | 74.4     | 38.7     | 232        |
 | `HybridNets`      | 90.1      | 76.4     | 42.1     | 110        |
 | `YOLOP-E(ours)`  | 92.1      | 83.8     | 53.3     | 127         |
-![1](https://github.com/xingchenshanyao/YOLOP-E/assets/116085226/531610d1-e956-4b5a-bdda-60a822a4eda1)
-![8](https://github.com/xingchenshanyao/YOLOP-E/assets/116085226/1d62660f-9e20-4754-98ff-6392409e5e36)
+
 ##### Drivable Area Segmentation Result
 ![3](https://github.com/xingchenshanyao/YOLOP-E/assets/116085226/f04437b1-b439-44e1-90e5-e983e448174f)
 ##### Lane Detection Result
