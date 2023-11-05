@@ -20,7 +20,7 @@ Our datasets and weights: [SDExpressway, yolop.pth, yolope.pth](https://pan.baid
 
 ##### Traffic Object Detection Result
 | Network          | Recall(%) | mAP50(%) | mAP50:95(%) | FPS(fps) |
-| -------------- | --------- | -------- | ---------- | ---------- |
+| :--------------: | :---------: | :--------: | :----------: | :----------: |
 | `YOLOP(baseline)`     | 86.8      | 74.4     | 38.7     | 232        |
 | `HybridNets`      | 90.1      | 76.4     | 42.1     | 110        |
 | `YOLOP-E(ours)`  | 92.1      | 83.8     | 53.3     | 127         |
