@@ -734,11 +734,10 @@ mso-font-kerning:1.0000pt;"><o:p></o:p></span></p></td></tr></tbody></table>
 ![3](https://github.com/xingchenshanyao/YOLOP-E/assets/116085226/7a4909a2-b70b-4161-a4d9-0b8a62ef7d4f)
 
 ### Demonstration
-inference/videos
 <table>
     <tr>
-            <th>input</th>
-            <th>output</th>
+            <th>show1</th>
+            <th>show2</th>
     </tr>
     <tr>
         <td><img src=inference/videos/show1.gif /></td>
