@@ -717,7 +717,7 @@ mso-font-kerning:1.0000pt;"><o:p></o:p></span></p></td></tr></tbody></table>
 | `DLT-Net`  | 71.3     | 56     |
 | `HybridNets`      | 90.5      | 108     |
 | `YOLOP-E(ours)`  | 92.1      | 120     |
-##### Lane Detection Result:
+##### Lane Detection Result
 | Network          | Acc(%) |IoU(fps) | FPS(fps) |
 | :--------------: | :---------: | :--------: | :--------: |
 | `YOLOP(baseline)`     | 70.5      | 26.2    | 230     |
