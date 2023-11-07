@@ -10,11 +10,13 @@ Our datasets and weights: [SDExpressway, yolop.pth, yolope.pth](https://pan.baid
 ### The Illustration of ELAN-X
 
 ### Contributions
-* 基于YOLOP提出了一种高效的针对高速公路场景的多任务网络YOLOP-E，可联合处理(jointly handle)自动驾驶中的三项关键任务：交通目标检测、可驾驶区域分割和车道线分割，并且达到优异的检测与分割效果。
+* This study has produced the expressway multi-task dataset, SDExpressway, encompassing 5603 images captured under various weather conditions, including sunny, dark, rainy and foggy scenarios. Each image in the dataset has been meticulously labeled with drivable areas, lane lines, and traffic object information.
 
-* 采集并制作了SDExpressway数据集，其包含晴天、黑夜、雨雾天气下的5603张图片。我们在SDExpressway与BDD100k上对所提网络进行了广泛评估，进行了消融实验与SOTA对比实验，以证明所提模型各项改进的有效性以及对高速公路场景检测的适应性，证实它即使在恶劣环境下也具有良好的鲁棒性和泛化能力。
+* This research endeavors include the optimization of the ELAN module, resulting in the creation of a more efficient aggregated network structure known as ELAN-X. This innovation facilitates the amalgamation of feature information from various depths for parallel processing, enhancing the sensory field and feature expression of the model. These enhancements bolster the accuracy of the multi-task model's detection capabilities.
 
-* 优化了ELAN模块得到更高效的聚合网络结构ELAN-X，结合了更多不同深度的特征信息进行并行处理，提升模型的感受野和特征表达能力，提高了多任务模型检测的精度。
+* This paper introduce an efficient multi-task network, YOLOP-E, tailored for expressway scenarios and built upon the YOLOP framework. YOLOP-E is engineered to jointly handle three critical tasks in autonomous driving: traffic object detection, drivable area segmentation, and lane line segmentation.
+
+*  The proposed network undergoes extensive evaluation on both the SDExpressway dataset and the widely recognized BDD100k dataset, including ablation experiments and state-of-the-art (SOTA) comparison experiments to demonstrate the efficacy of the various improvements integrated into the model. Notably, the proposed model showcases robustness and strong generalization abilities, even in challenging environmental conditions.
 
 ### Results
 
