@@ -710,7 +710,7 @@ mso-font-kerning:1.0000pt;"><o:p></o:p></span></p></td></tr></tbody></table>
 | `MultiNet`      | 81.3      | 60.2     | 33.1     | 51        |
 | `DLT-Net`  | 89.4      | 68.4     | 38.6     | 56         |
 | `HybridNets`      | 92.8      | 77.3     | 45.8     | 108        |
-| `YOLOP-E(ours)`  | 92.0      | 79.7     | 46.7     | 120         |
+| `YOLOP-E(ours)`  | 92.0(+2.5)      | 79.7(+3.4)     | 46.7(+3.6)     | 120         |
 ##### Drivable Area Segmentation Result
 | Network          | mIoU(%) | FPS(fps) |
 | :--------------: | :---------: | :--------: |
@@ -718,13 +718,13 @@ mso-font-kerning:1.0000pt;"><o:p></o:p></span></p></td></tr></tbody></table>
 | `MultiNet`      | 71.6     | 51     |
 | `DLT-Net`  | 71.3     | 56     |
 | `HybridNets`      | 90.5      | 108     |
-| `YOLOP-E(ours)`  | 92.1      | 120     |
+| `YOLOP-E(ours)`  | 92.1(+0.8)      | 120     |
 ##### Lane Detection Result
 | Network          | Acc(%) |IoU(fps) | FPS(fps) |
 | :--------------: | :---------: | :--------: | :--------: |
 | `YOLOP(baseline)`     | 70.5      | 26.2    | 230     |
 | `HybridNets`      | 85.4      | 31.6     | 108   |
-| `YOLOP-E(ours)`  | 73.0      | 27.3     | 120     |
+| `YOLOP-E(ours)`  | 73.0 (+2.5)     | 27.3(+1.1)     | 120     |
 
 ### Visualization
 
