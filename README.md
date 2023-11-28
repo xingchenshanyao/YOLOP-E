@@ -27,7 +27,7 @@ Our datasets and weights: [SDExpressway, yolop.pth, yolope.pth](https://pan.baid
 | :--------------: | :---------: | :--------: | :----------: | :----------: |
 | `YOLOP(baseline)`     | 86.8      | 74.4     | 38.7     | 232        |
 | `HybridNets`      | 90.1      | 76.4     | 42.1     | 110        |
-| `YOLOP-E(ours)`  | 92.1      | 83.8     | 53.3     | 127         |
+| `YOLOP-E(ours)`  | 92.1(+5.3)      | 83.8(+9.4)     | 53.3(+14.6)     | 127         |
 <table class="MsoTableGrid" border="1" cellspacing="0" style="border-collapse:collapse;border:none;mso-border-left-alt:0.5000pt solid windowtext;
 mso-border-top-alt:0.5000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;
 mso-border-insideh:0.5000pt solid windowtext;mso-border-insidev:0.5000pt solid windowtext;mso-padding-alt:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;"><tbody><tr><td width="74" valign="top" rowspan="2" style="width:44.8500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;
@@ -693,13 +693,13 @@ mso-font-kerning:1.0000pt;"><o:p></o:p></span></p></td></tr></tbody></table>
 | :--------------: | :---------: | :--------: |
 | `YOLOP(baseline)`     | 97.7      | 232     |
 | `HybridNets`      | 97.5      | 110     |
-| `YOLOP-E(ours)`  | 98.1      | 127     |
+| `YOLOP-E(ours)`  | 98.1(+0.4)      | 127     |
 ##### Lane Detection Result
 | Network          | Acc(%) |IoU(fps) | FPS(fps) |
 | :--------------: | :---------: | :--------: | :--------: |
 | `YOLOP(baseline)`     | 90.8      | 72.8     | 232     |
 | `HybridNets`      | 92.0      | 75.7     | 110    |
-| `YOLOP-E(ours)`  | 92.1      | 76.2     | 127     |
+| `YOLOP-E(ours)`  | 92.1(+1.3)      | 76.2(+3.4)     | 127     |
 
 ##### On the BDD100k
 
