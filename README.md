@@ -7,7 +7,7 @@ Our datasets and weights: [SDExpressway, yolop.pth, yolope.pth](https://pan.baid
 ***
 
 ### The Illustration of YOLOP-E
-![1](https://github.com/xingchenshanyao/YOLOP-E/assets/116085226/8e115e1f-a5e3-4861-a58b-7f17de362344)
+![0](https://github.com/xingchenshanyao/YOLOP-E/assets/116085226/cc50ea83-3d44-4fbd-a9f7-e94a5f11986b)
 
 ### The Illustration of ELAN-X
 ![ELAN-X](https://github.com/xingchenshanyao/YOLOP-E/assets/116085226/98e7bdb3-936a-4994-ab2e-75078b2ea0be)
@@ -77,7 +77,7 @@ Our datasets and weights: [SDExpressway, yolop.pth, yolope.pth](https://pan.baid
 | `YOLOP-E(ours)`  | 73.0 (**+2.5**)     | 27.3(**+1.1**)     | 120     |
 
 #### The evaluation of effificient experiments
-![1](https://github.com/xingchenshanyao/YOLOP-E/assets/116085226/03b85a7b-720d-4820-a2e5-3ee8c6eca162)
+![1](https://github.com/xingchenshanyao/YOLOP-E/assets/116085226/8e115e1f-a5e3-4861-a58b-7f17de362344)
 
 #### The comparison of performance effects of adding SimAM attention mechanisms at different locations
 ![2](https://github.com/xingchenshanyao/YOLOP-E/assets/116085226/ea253137-2d2e-4e61-bcf6-5247635c71ad)
