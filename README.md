@@ -99,14 +99,21 @@ NOTE：YOLOP (left), HybridNets (center), and YOLOP-E (right)
 
 ***
 
-### Beginning
+### Getting Started
+#### Installation
+##### a. Clone this repository
+```python
+https://github.com/dvlab-research/VoxelNeXt && cd VoxelNeXt
+```
+
+#### Demo Test
+
+#### Training
+
+#### Evaluation
 
 
 ***
-
-### Demo Test
-
-
 
 ### Demonstration
 <table>
