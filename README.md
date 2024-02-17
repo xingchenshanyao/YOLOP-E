@@ -31,7 +31,7 @@ Our datasets and weights: [SDExpressway, yolop.pth, yolope.pth](https://pan.baid
 | `HybridNets`      | 90.1      | 76.4     | 42.1     | 110        |
 | `YOLOP-E(ours)`  | 92.1(+5.3)      | 83.8(+9.4)     | 53.3(+14.6)     | 127         |
 
-![3](https://github.com/xingchenshanyao/YOLOP-E/assets/116085226/960cb2b3-ceb5-46ed-9fba-29fdfe1e1170)
+![3](https://github.com/xingchenshanyao/YOLOP-E/assets/116085226/31bbe3c1-ca55-444a-b735-afabdfc02be3)
 
 ##### Drivable Area Segmentation Result
 | Network          | mIoU(%) | FPS(fps) |
@@ -72,10 +72,10 @@ Our datasets and weights: [SDExpressway, yolop.pth, yolope.pth](https://pan.baid
 | `YOLOP-E(ours)`  | 73.0 (+2.5)     | 27.3(+1.1)     | 120     |
 
 #### The evaluation of effificient experiments
-![1](https://github.com/xingchenshanyao/YOLOP-E/assets/116085226/5f156442-cbb9-4ce4-b42a-954c1ed3df03)
+![1](https://github.com/xingchenshanyao/YOLOP-E/assets/116085226/03b85a7b-720d-4820-a2e5-3ee8c6eca162)
 
 #### The comparison of performance effects of adding SimAM attention mechanisms at different locations
-![2](https://github.com/xingchenshanyao/YOLOP-E/assets/116085226/3ed6077c-308e-4f68-b816-0c4543ef4eff)
+![2](https://github.com/xingchenshanyao/YOLOP-E/assets/116085226/ea253137-2d2e-4e61-bcf6-5247635c71ad)
 
 ### Visualization
 
