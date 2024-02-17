@@ -115,7 +115,7 @@ pip install -r requirements.txt
 ##### c. Prepare the datasets and weights
 Download the datasets and weights: [SDExpressway, yolop.pth, yolope.pth](https://pan.baidu.com/s/1589VGpmHATSrTs6f_HSI_g)
 
-We recommend the dataset/weight directory structure to be the following:
+We recommend the weight directory structure to be the following:
 ```
 #root directory
 ├─weights
