@@ -160,6 +160,6 @@ python tools/test.py --weights --weights weights/yolop.pth
 
 ### Acknowledgements:
 
-This work is built upon the [YOLOP](https://github.com/hustvl/YOLOP), [YOLOv7](https://github.com/WongKinYiu/yolov7),[YOLOv5](https://github.com/ultralytics/yolov5).
+This work is built upon the [YOLOP](https://github.com/hustvl/YOLOP), [YOLOv7](https://github.com/WongKinYiu/yolov7), [YOLOv5](https://github.com/ultralytics/yolov5).
 
 This work receives assistance from [华夏街景](https://www.bilibili.com/video/BV1xN4y1w7pv/) as well.
