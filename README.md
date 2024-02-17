@@ -15,11 +15,11 @@ Our datasets and weights: [SDExpressway, yolop.pth, yolope.pth](https://pan.baid
 ***
 
 ### Contributions
-* This study has produced the expressway multi-task dataset, SDExpressway, encompassing 5603 images captured under various weather conditions, including sunny, dark, rainy and foggy scenarios. Each image in the dataset has been meticulously labeled with drivable areas, lane lines, and traffic object information.
+* This study has produced the expressway multi-task dataset, **SDExpressway**, encompassing 5603 images captured under various weather conditions, including sunny, dark, rainy and foggy scenarios. Each image in the dataset has been meticulously labeled with drivable areas, lane lines, and traffic object information.
 
-* This research endeavors include the optimization of the ELAN module, resulting in the creation of a more efficient aggregated network structure known as ELAN-X. This innovation facilitates the amalgamation of feature information from various depths for parallel processing, enhancing the sensory field and feature expression of the model. These enhancements bolster the accuracy of the multi-task model's detection capabilities.
+* This research endeavors include the optimization of the ELAN module, resulting in the creation of a more efficient aggregated network structure known as **ELAN-X**. This innovation facilitates the amalgamation of feature information from various depths for parallel processing, enhancing the sensory field and feature expression of the model. These enhancements bolster the accuracy of the multi-task model's detection capabilities.
 
-* This paper introduce an efficient multi-task network, YOLOP-E, tailored for expressway scenarios and built upon the YOLOP framework. YOLOP-E is engineered to jointly handle three critical tasks in autonomous driving: traffic object detection, drivable area segmentation, and lane line segmentation.
+* This paper introduce an efficient multi-task network, **YOLOP-E**, tailored for expressway scenarios and built upon the YOLOP framework. YOLOP-E is engineered to jointly handle three critical tasks in autonomous driving: traffic object detection, drivable area segmentation, and lane line segmentation.
 
 *  The proposed network undergoes extensive evaluation on both the SDExpressway dataset and the widely recognized BDD100k dataset, including ablation experiments and state-of-the-art (SOTA) comparison experiments to demonstrate the efficacy of the various improvements integrated into the model. Notably, the proposed model showcases robustness and strong generalization abilities, even in challenging environmental conditions.
 
@@ -102,8 +102,8 @@ NOTE：YOLOP (left), HybridNets (center), and YOLOP-E (right)
 ### Demonstration
 <table>
     <tr>
-            <th>show1</th>
-            <th>show2</th>
+            <th>Show1</th>
+            <th>Show2</th>
     </tr>
     <tr>
         <td><img src=inference/videos/show1.gif /></td>
