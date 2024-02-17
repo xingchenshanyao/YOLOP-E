@@ -1,8 +1,8 @@
 ## YOLOP-E: You Only Look Once for Expressway Panoramic Driving Perception
 
-Our paper: YOLOP-E: You Only Look Once for Expressway Panoramic Driving Perception(Submitted)
+Our paper: YOLOP-E: You Only Look Once for Expressway Panoramic Driving Perception(Submitted).
 
-Our datasets and weights: [SDExpressway, yolop.pth, yolope.pth](https://pan.baidu.com/s/1589VGpmHATSrTs6f_HSI_g)
+Our datasets and weights: [SDExpressway, yolop.pth, yolope.pth](https://pan.baidu.com/s/1589VGpmHATSrTs6f_HSI_g).
 
 ***
 
@@ -113,16 +113,16 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 pip install -r requirements.txt
 ```
 ##### c. Prepare the datasets and weights
-Download the datasets and weights: [SDExpressway, yolop.pth, yolope.pth](https://pan.baidu.com/s/1589VGpmHATSrTs6f_HSI_g)
+Download the datasets and weights: [SDExpressway, yolop.pth, yolope.pth](https://pan.baidu.com/s/1589VGpmHATSrTs6f_HSI_g).
 
-We recommend the weight directory structure to be the following:
+We recommend the weight directory structure to be the following :
 ```
 #root directory
 ├─weights
 │ ├─yolop.pth
 │ ├─yolope.pth
 ```
-Add the true dataset path in `lib/config/default.py`
+Add the true dataset path in `lib/config/default.py`.
 ```
 _C.DATASET.DATAROOT = '/home/xingchen/Study/datasets/SDExpressway/images'       # the path of images folder
 _C.DATASET.LABELROOT = '/home/xingchen/Study/datasets/SDExpressway/traffic object labels'      # the path of det_annotations folder
@@ -160,6 +160,6 @@ python tools/test.py --weights --weights weights/yolop.pth
 
 ### Acknowledgements:
 
-[YOLOP](https://github.com/hustvl/YOLOP)
+This work is built upon the [YOLOP](https://github.com/hustvl/YOLOP), [YOLOv7](https://github.com/WongKinYiu/yolov7),[YOLOv5](https://github.com/ultralytics/yolov5).
 
-[华夏街景](https://www.bilibili.com/video/BV1xN4y1w7pv/)
+This work receives assistance from [华夏街景](https://www.bilibili.com/video/BV1xN4y1w7pv/) as well.
