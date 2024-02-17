@@ -120,28 +120,27 @@ We recommend the dataset/weight directory structure to be the following:
 #root directory
 ├─weights
 │ ├─yolop.pth
-├─datasets
-│ ├─images
-│ │ ├─train
-│ │ ├─val
-│ ├─det_annotations
-│ │ ├─train
-│ │ ├─val
-│ ├─da_seg_annotations
-│ │ ├─train
-│ │ ├─val
-│ ├─ll_seg_annotations
-│ │ ├─train
-│ │ ├─val
+│ ├─yolope.pth
+```
+Add the true dataset path in `lib/config/default.py`
+```
+_C.DATASET.DATAROOT = '/home/xingchen/Study/datasets/SDExpressway/images'       # the path of images folder
+_C.DATASET.LABELROOT = '/home/xingchen/Study/datasets/SDExpressway/traffic object labels'      # the path of det_annotations folder
+_C.DATASET.MASKROOT = '/home/xingchen/Study/datasets/SDExpressway/drivable area labels'                # the path of da_seg_annotations folder
+_C.DATASET.LANEROOT = '/home/xingchen/Study/datasets/SDExpressway/lane line labels'               # the path of ll_seg_annotations folder
 ```
 #### Demo Test
 ```python
 python tools/demo.py --weights weights/yolop.pth --source inference/images/8.jpg --save-dir inference/output_yolope
 ```
 #### Training
-
+```python
+python tools/train.py
+```
 #### Evaluation
-
+```python
+python tools/test.py --weights --weights weights/yolop.pth
+```
 
 ***
 
