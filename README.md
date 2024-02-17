@@ -113,7 +113,23 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 pip install -r requirements.txt
 ```
 ##### c. Prepare the datasets and weights
-Download the 
+Download the datasets and weights: [SDExpressway, yolop.pth, yolope.pth](https://pan.baidu.com/s/1589VGpmHATSrTs6f_HSI_g)
+We recommend the dataset/weight directory structure to be the following:
+```
+├─dataset root
+│ ├─images
+│ │ ├─train
+│ │ ├─val
+│ ├─det_annotations
+│ │ ├─train
+│ │ ├─val
+│ ├─da_seg_annotations
+│ │ ├─train
+│ │ ├─val
+│ ├─ll_seg_annotations
+│ │ ├─train
+│ │ ├─val
+```
 
 
 
