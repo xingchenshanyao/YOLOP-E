@@ -103,8 +103,19 @@ NOTE：YOLOP (left), HybridNets (center), and YOLOP-E (right)
 #### Installation
 ##### a. Clone this repository
 ```python
-https://github.com/dvlab-research/VoxelNeXt && cd VoxelNeXt
+git clone git@github.com:xingchenshanyao/YOLOP-E.git && cd /YOLOP-E
 ```
+##### b. Install the environment
+```python
+conda create -n YOLOPE python=3.8
+conda activate  YOLOPE
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118 # install the pytorch
+pip install -r requirements.txt
+```
+##### c. Prepare the datasets and weights
+Download the 
+
+
 
 #### Demo Test
 
