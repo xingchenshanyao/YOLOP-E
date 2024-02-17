@@ -134,9 +134,10 @@ We recommend the dataset/weight directory structure to be the following:
 │ │ ├─train
 │ │ ├─val
 ```
-
 #### Demo Test
-
+```python
+python tools/demo.py --weights weights/yolop.pth --source inference/images/8.jpg --save-dir inference/output_yolope
+```
 #### Training
 
 #### Evaluation
