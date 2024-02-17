@@ -102,8 +102,8 @@ NOTE：YOLOP (left), HybridNets (center), and YOLOP-E (right)
 ### Demonstration
 <table>
     <tr>
-            <th>Show1</th>
-            <th>Show2</th>
+            <th>Output1</th>
+            <th>Output2</th>
     </tr>
     <tr>
         <td><img src=inference/videos/show1.gif /></td>
