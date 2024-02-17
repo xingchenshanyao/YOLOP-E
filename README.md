@@ -12,6 +12,7 @@ Our datasets and weights: [SDExpressway, yolop.pth, yolope.pth](https://pan.baid
 ### The Illustration of ELAN-X
 ![ELAN-X](https://github.com/xingchenshanyao/YOLOP-E/assets/116085226/98e7bdb3-936a-4994-ab2e-75078b2ea0be)
 
+***
 
 ### Contributions
 * This study has produced the expressway multi-task dataset, SDExpressway, encompassing 5603 images captured under various weather conditions, including sunny, dark, rainy and foggy scenarios. Each image in the dataset has been meticulously labeled with drivable areas, lane lines, and traffic object information.
@@ -21,6 +22,8 @@ Our datasets and weights: [SDExpressway, yolop.pth, yolope.pth](https://pan.baid
 * This paper introduce an efficient multi-task network, YOLOP-E, tailored for expressway scenarios and built upon the YOLOP framework. YOLOP-E is engineered to jointly handle three critical tasks in autonomous driving: traffic object detection, drivable area segmentation, and lane line segmentation.
 
 *  The proposed network undergoes extensive evaluation on both the SDExpressway dataset and the widely recognized BDD100k dataset, including ablation experiments and state-of-the-art (SOTA) comparison experiments to demonstrate the efficacy of the various improvements integrated into the model. Notably, the proposed model showcases robustness and strong generalization abilities, even in challenging environmental conditions.
+
+***
 
 ### Results
 
@@ -79,6 +82,8 @@ Our datasets and weights: [SDExpressway, yolop.pth, yolope.pth](https://pan.baid
 #### The comparison of performance effects of adding SimAM attention mechanisms at different locations
 ![2](https://github.com/xingchenshanyao/YOLOP-E/assets/116085226/ea253137-2d2e-4e61-bcf6-5247635c71ad)
 
+***
+
 ### Visualization
 
 NOTE：YOLOP (left), HybridNets (center), and YOLOP-E (right) 
@@ -92,6 +97,8 @@ NOTE：YOLOP (left), HybridNets (center), and YOLOP-E (right)
 #### Lane Detection Result
 ![3](https://github.com/xingchenshanyao/YOLOP-E/assets/116085226/39ca017e-5a99-4cc0-8aa5-40ae294cc18e)
 
+***
+
 ### Demonstration
 <table>
     <tr>
@@ -103,6 +110,8 @@ NOTE：YOLOP (left), HybridNets (center), and YOLOP-E (right)
         <td><img src=inference/videos/show2.gif/></td>
     </tr>
 </table>
+
+***
 
 ### Acknowledgements:
 
