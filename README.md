@@ -4,6 +4,8 @@ Our paper: YOLOP-E: You Only Look Once for Expressway Panoramic Driving Percepti
 
 Our datasets and weights: [SDExpressway, yolop.pth, yolope.pth](https://pan.baidu.com/s/1589VGpmHATSrTs6f_HSI_g)
 
+***
+
 ### The Illustration of YOLOP-E
 ![1](https://github.com/xingchenshanyao/YOLOP-E/assets/116085226/8e115e1f-a5e3-4861-a58b-7f17de362344)
 
