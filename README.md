@@ -34,7 +34,7 @@ Our datasets and weights: [SDExpressway, yolop.pth, yolope.pth](https://pan.baid
 | :--------------: | :---------: | :--------: | :----------: | :----------: |
 | `YOLOP(baseline)`     | 86.8      | 74.4     | 38.7     | 232        |
 | `HybridNets`      | 90.1      | 76.4     | 42.1     | 110        |
-| `YOLOP-E(ours)`  | 92.1(+5.3)      | 83.8(+9.4)     | 53.3(+14.6)     | 127         |
+| `YOLOP-E(ours)`  | 92.1(**+5.3**)      | 83.8(**+9.4**)     | 53.3(**+14.6**)     | 127         |
 
 ![3](https://github.com/xingchenshanyao/YOLOP-E/assets/116085226/31bbe3c1-ca55-444a-b735-afabdfc02be3)
 
@@ -43,13 +43,13 @@ Our datasets and weights: [SDExpressway, yolop.pth, yolope.pth](https://pan.baid
 | :--------------: | :---------: | :--------: |
 | `YOLOP(baseline)`     | 97.7      | 232     |
 | `HybridNets`      | 97.5      | 110     |
-| `YOLOP-E(ours)`  | 98.1(+0.4)      | 127     |
+| `YOLOP-E(ours)`  | 98.1(**+0.4**)      | 127     |
 ##### Lane Detection Result
 | Network          | Acc(%) |IoU(%) | FPS(fps) |
 | :--------------: | :---------: | :--------: | :--------: |
 | `YOLOP(baseline)`     | 90.8      | 72.8     | 232     |
 | `HybridNets`      | 92.0      | 75.7     | 110    |
-| `YOLOP-E(ours)`  | 92.1(+1.3)      | 76.2(+3.4)     | 127     |
+| `YOLOP-E(ours)`  | 92.1(**+1.3**)      | 76.2(**+3.4**)     | 127     |
 
 #### On the BDD100k
 
@@ -60,7 +60,7 @@ Our datasets and weights: [SDExpressway, yolop.pth, yolope.pth](https://pan.baid
 | `MultiNet`      | 81.3      | 60.2     | 33.1     | 51        |
 | `DLT-Net`  | 89.4      | 68.4     | 38.6     | 56         |
 | `HybridNets`      | 92.8      | 77.3     | 45.8     | 108        |
-| `YOLOP-E(ours)`  | 92.0(+2.5)      | 79.7(+3.4)     | 46.7(+3.6)     | 120         |
+| `YOLOP-E(ours)`  | 92.0(**+2.5**)      | 79.7(**+3.4**)     | 46.7(**+3.6**)     | 120         |
 ##### Drivable Area Segmentation Result
 | Network          | mIoU(%) | FPS(fps) |
 | :--------------: | :---------: | :--------: |
@@ -68,13 +68,13 @@ Our datasets and weights: [SDExpressway, yolop.pth, yolope.pth](https://pan.baid
 | `MultiNet`      | 71.6     | 51     |
 | `DLT-Net`  | 71.3     | 56     |
 | `HybridNets`      | 90.5      | 108     |
-| `YOLOP-E(ours)`  | 92.1(+0.8)      | 120     |
+| `YOLOP-E(ours)`  | 92.1(**+0.8**)      | 120     |
 ##### Lane Detection Result
 | Network          | Acc(%) |IoU(%) | FPS(fps) |
 | :--------------: | :---------: | :--------: | :--------: |
 | `YOLOP(baseline)`     | 70.5      | 26.2    | 230     |
 | `HybridNets`      | 85.4      | 31.6     | 108   |
-| `YOLOP-E(ours)`  | 73.0 (+2.5)     | 27.3(+1.1)     | 120     |
+| `YOLOP-E(ours)`  | 73.0 (**+2.5**)     | 27.3(**+1.1**)     | 120     |
 
 #### The evaluation of effificient experiments
 ![1](https://github.com/xingchenshanyao/YOLOP-E/assets/116085226/03b85a7b-720d-4820-a2e5-3ee8c6eca162)
