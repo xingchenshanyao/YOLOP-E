@@ -139,7 +139,7 @@ python tools/train.py
 ```
 #### Evaluation
 ```python
-python tools/test.py --weights --weights weights/yolop.pth
+python tools/test.py --weights --weights weights/yolope.pth
 ```
 
 ***
